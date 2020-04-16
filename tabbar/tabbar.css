@@ -1,16 +1,19 @@
 /* 选项卡 */
-.tab-header,
+/* .tab-header,
 .tab-body {
   width: 70%;
   margin: 0 auto;
-}
+} */
 /* 头部 */
-.tab-header > li {
+/* .tab-header > li {
   float: left;
   width: 20%;
   text-align: center;
+} */
+/* 选中 */ 
+.tab-header > li {
+  cursor: pointer;
 }
-/* 选中 */
 .tab-header > li.active {
 }
 .tab-body > li {
